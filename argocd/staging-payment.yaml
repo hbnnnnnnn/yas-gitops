@@ -5,7 +5,7 @@ kind: Application
 
 metadata:
 
-  name: dev-backoffice-bff
+  name: staging-payment
 
   namespace: argocd
 
@@ -19,13 +19,13 @@ spec:
 
       targetRevision: main
 
-      path: k8s/charts/backoffice-bff
+      path: k8s/charts/payment
 
       helm:
 
         valueFiles:
 
-          - $values/dev/backoffice-bff.values.yaml
+          - $values/staging/payment.values.yaml
 
     - repoURL: https://github.com/your-org/yas-gitops
 
@@ -37,7 +37,7 @@ spec:
 
     server: https://kubernetes.default.svc
 
-    namespace: dev
+    namespace: staging
 
   syncPolicy:
 

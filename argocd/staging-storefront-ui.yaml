@@ -1,24 +1,49 @@
+
 apiVersion: argoproj.io/v1alpha1
+
 kind: Application
+
 metadata:
-  name: dev-storefront
+
+  name: staging-storefront-ui
+
   namespace: argocd
+
 spec:
+
   project: default
+
   sources:
-    - repoURL: https://github.com/hbnnnnnnn/yas-project-2
+
+    - repoURL: https://github.com/your-username/yas
+
       targetRevision: main
-      path: k8s/charts/storefront
+
+      path: k8s/charts/storefront-ui
+
       helm:
+
         valueFiles:
-          - $values/dev/storefront.values.yaml
-    - repoURL: https://github.com/hbnnnnnnn/yas-gitops
+
+          - $values/staging/storefront-ui.values.yaml
+
+    - repoURL: https://github.com/your-org/yas-gitops
+
       targetRevision: HEAD
+
       ref: values
+
   destination:
+
     server: https://kubernetes.default.svc
-    namespace: dev
+
+    namespace: staging
+
   syncPolicy:
+
     automated:
+
       prune: true
+
       selfHeal: true
+
