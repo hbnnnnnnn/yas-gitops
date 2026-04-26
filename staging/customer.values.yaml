@@ -1,0 +1,4 @@
+backend:
+  image:
+    repository: your-dockerhub-username/yas-customer
+    tag: main
