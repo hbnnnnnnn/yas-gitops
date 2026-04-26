@@ -1,0 +1,4 @@
+backend:
+  image:
+    repository: hbnnn/sampledata
+    tag: main
