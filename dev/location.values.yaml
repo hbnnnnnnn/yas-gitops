@@ -1,0 +1,5 @@
+# yas-gitops/dev/location.values.yaml
+backend:
+  image:
+    repository: your-dockerhub-username/yas-location
+    tag: main          # Jenkins overwrites this line

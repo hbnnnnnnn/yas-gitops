@@ -1,0 +1,5 @@
+# yas-gitops/dev/search.values.yaml
+backend:
+  image:
+    repository: your-dockerhub-username/yas-search
+    tag: main          # Jenkins overwrites this line

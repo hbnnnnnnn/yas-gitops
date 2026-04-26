@@ -1,0 +1,5 @@
+# yas-gitops/dev/order.values.yaml
+backend:
+  image:
+    repository: your-dockerhub-username/yas-order
+    tag: main          # Jenkins overwrites this line

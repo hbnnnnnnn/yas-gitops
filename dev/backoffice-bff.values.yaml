@@ -1,0 +1,5 @@
+# yas-gitops/dev/backoffice-bff.values.yaml
+backend:
+  image:
+    repository: your-dockerhub-username/yas-backoffice-bff
+    tag: main          # Jenkins overwrites this line

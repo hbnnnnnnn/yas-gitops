@@ -1,0 +1,5 @@
+# yas-gitops/dev/rating.values.yaml
+backend:
+  image:
+    repository: your-dockerhub-username/yas-rating
+    tag: main          # Jenkins overwrites this line

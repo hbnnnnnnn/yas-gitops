@@ -1,0 +1,5 @@
+# yas-gitops/dev/storefront-bff.values.yaml
+backend:
+  image:
+    repository: your-dockerhub-username/yas-storefront-bff
+    tag: main          # Jenkins overwrites this line
