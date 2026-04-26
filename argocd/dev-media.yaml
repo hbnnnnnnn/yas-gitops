@@ -6,13 +6,13 @@ metadata:
 spec:
   project: default
   sources:
-    - repoURL: https://github.com/nashtech-garage/yas
+    - repoURL: https://github.com/hbnnnnnnn/yas-project-2
       targetRevision: main
       path: k8s/charts/media
       helm:
         valueFiles:
           - $values/dev/media.values.yaml
-    - repoURL: https://github.com/your-org/yas-gitops
+    - repoURL: https://github.com/hbnnnnnnn/yas-gitops
       targetRevision: HEAD
       ref: values
   destination:
