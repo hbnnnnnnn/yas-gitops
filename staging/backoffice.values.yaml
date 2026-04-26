@@ -1,4 +1,0 @@
-backend:
-  image:
-    repository: hbnnn/yas-backoffice
-    tag: main

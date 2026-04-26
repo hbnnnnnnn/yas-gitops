@@ -1,4 +1,0 @@
-backend:
-  image:
-    repository: hbnnn/yas-storefront
-    tag: main          # Jenkins overwrites this line
