@@ -1,0 +1,24 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: staging-order
+  namespace: argocd
+spec:
+  project: default
+  sources:
+    - repoURL: https://github.com/nashtech-garage/yas
+      targetRevision: main
+      path: k8s/charts/order
+      helm:
+        valueFiles:
+          - $values/staging/order.values.yaml
+    - repoURL: https://github.com/your-org/yas-gitops
+      targetRevision: HEAD
+      ref: values
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: staging
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
