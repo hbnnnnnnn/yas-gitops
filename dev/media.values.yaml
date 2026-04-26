@@ -1,4 +1,4 @@
 backend:
   image:
     repository: hbnnn/media
-    tag: test-1
+    tag: main
