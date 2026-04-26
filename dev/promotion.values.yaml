@@ -1,4 +1,4 @@
 backend:
   image:
     repository: hbnnn/promotion
-    tag: main
+    tag: test-1

@@ -1,4 +1,4 @@
 backend:
   image:
     repository: hbnnn/product
-    tag: main
+    tag: test-1
