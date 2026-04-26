@@ -1,5 +1,4 @@
-# yas-gitops/dev/customer.values.yaml
 backend:
   image:
-    repository: your-dockerhub-username/yas-customer
+    repository: hbnnn/yas-customer
     tag: main          # Jenkins overwrites this line

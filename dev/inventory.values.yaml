@@ -1,5 +1,4 @@
-# yas-gitops/dev/inventory.values.yaml
 backend:
   image:
-    repository: your-dockerhub-username/yas-inventory
+    repository: hbnnn/yas-inventory
     tag: main          # Jenkins overwrites this line

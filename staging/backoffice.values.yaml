@@ -1,4 +1,4 @@
 backend:
   image:
-    repository: your-dockerhub-username/yas-backoffice
+    repository: hbnnn/yas-backoffice
     tag: main

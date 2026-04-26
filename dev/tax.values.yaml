@@ -1,5 +1,4 @@
-# yas-gitops/dev/tax.values.yaml
 backend:
   image:
-    repository: your-dockerhub-username/yas-tax
+    repository: hbnnn/yas-tax
     tag: main          # Jenkins overwrites this line

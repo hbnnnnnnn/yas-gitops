@@ -1,4 +1,4 @@
 backend:
   image:
-    repository: your-dockerhub-username/yas-tax
+    repository: hbnnn/yas-tax
     tag: main

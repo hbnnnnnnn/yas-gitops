@@ -1,5 +1,4 @@
-# yas-gitops/dev/product.values.yaml
 backend:
   image:
-    repository: your-dockerhub-username/yas-product
+    repository: hbnnn/yas-product
     tag: main          # Jenkins overwrites this line

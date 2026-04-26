@@ -1,4 +1,4 @@
 backend:
   image:
-    repository: your-dockerhub-username/yas-cart
+    repository: hbnnn/yas-cart
     tag: main

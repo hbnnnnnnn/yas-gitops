@@ -1,5 +1,4 @@
-# yas-gitops/dev/cart.values.yaml
 backend:
   image:
-    repository: your-dockerhub-username/yas-cart
+    repository: hbnnn/yas-cart
     tag: main          # Jenkins overwrites this line

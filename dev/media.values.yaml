@@ -1,5 +1,4 @@
-# yas-gitops/dev/media.values.yaml
 backend:
   image:
-    repository: your-dockerhub-username/yas-media
+    repository: hbnnn/yas-media
     tag: main          # Jenkins overwrites this line

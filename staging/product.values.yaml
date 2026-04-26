@@ -1,4 +1,4 @@
 backend:
   image:
-    repository: your-dockerhub-username/yas-product
+    repository: hbnnn/yas-product
     tag: main
