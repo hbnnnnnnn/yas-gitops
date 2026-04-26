@@ -1,4 +1,4 @@
 backend:
   image:
-    repository: hbnnn/yas-search
+    repository: hbnnn/search
     tag: main

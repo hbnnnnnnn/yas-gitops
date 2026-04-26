@@ -1,4 +1,4 @@
 backend:
   image:
-    repository: your-dockerhub-username/yas-storefront-ui
+    repository: hbnnn/storefront
     tag: main

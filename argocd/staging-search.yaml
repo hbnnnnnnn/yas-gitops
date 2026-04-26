@@ -15,7 +15,7 @@ spec:
 
   sources:
 
-    - repoURL: https://github.com/your-username/yas
+    - repoURL: https://github.com/hbnnnnnnn/yas-project-2
 
       targetRevision: main
 
@@ -27,7 +27,7 @@ spec:
 
           - $values/staging/search.values.yaml
 
-    - repoURL: https://github.com/your-org/yas-gitops
+    - repoURL: https://github.com/hbnnnnnnn/yas-gitops
 
       targetRevision: HEAD
 

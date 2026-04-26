@@ -1,4 +1,4 @@
 backend:
   image:
-    repository: hbnnn/yas-rating
+    repository: hbnnn/rating
     tag: main

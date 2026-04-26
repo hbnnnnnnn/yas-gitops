@@ -1,4 +1,4 @@
 backend:
   image:
-    repository: hbnnn/yas-order
+    repository: hbnnn/order
     tag: main

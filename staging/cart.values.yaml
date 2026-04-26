@@ -1,4 +1,4 @@
 backend:
   image:
-    repository: hbnnn/yas-cart
+    repository: hbnnn/cart
     tag: main
