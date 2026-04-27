@@ -1,0 +1,47 @@
+apiVersion: argoproj.io/v1alpha1
+
+kind: Application
+
+metadata:
+
+  name: dev-yas-configuration
+
+  namespace: argocd
+
+spec:
+
+  project: default
+
+  sources:
+
+    - repoURL: https://github.com/hbnnnnnnn/yas-project-2
+
+      targetRevision: main
+
+      path: k8s/charts/yas-configuration
+
+      helm:
+
+        valueFiles:
+
+          - $values/dev/yas-configuration.values.yaml
+
+    - repoURL: https://github.com/hbnnnnnnn/yas-gitops
+
+      targetRevision: HEAD
+
+      ref: values
+
+  destination:
+
+    server: https://kubernetes.default.svc
+
+    namespace: dev
+
+  syncPolicy:
+
+    automated:
+
+      prune: true
+
+      selfHeal: true
