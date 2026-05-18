@@ -1,4 +1,4 @@
 backend:
   image:
     repository: hbnnn/product
-    tag: main
+    tag: f88703dd

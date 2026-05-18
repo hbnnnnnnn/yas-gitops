@@ -1,4 +1,4 @@
 backend:
   image:
     repository: hbnnn/backoffice-bff
-    tag: main
+    tag: f88703dd

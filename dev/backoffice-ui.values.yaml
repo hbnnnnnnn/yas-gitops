@@ -5,4 +5,4 @@ ui:
 backend:
   image:
     repository: hbnnn/backoffice
-    tag: main
+    tag: f88703dd
