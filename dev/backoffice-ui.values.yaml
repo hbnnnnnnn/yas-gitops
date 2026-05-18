@@ -2,3 +2,7 @@ ui:
   image:
     repository: hbnnn/backoffice
     tag: main
+backend:
+  image:
+    repository: hbnnn/backoffice
+    tag: main
