@@ -1,4 +1,4 @@
 backend:
   image:
     repository: hbnnn/tax
-    tag: dev_tax_service
+    tag: main
